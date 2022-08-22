@@ -13,7 +13,6 @@ import java.util.Properties;
 public class ConsumerDemoCooperative {
 
     private static final Logger log = LoggerFactory.getLogger(ConsumerDemoCooperative.class.getSimpleName());
-
     public static void main(String[] args) {
         log.info("I am a Kafka Consumer");
 
