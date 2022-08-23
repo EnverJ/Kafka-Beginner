@@ -14,6 +14,7 @@ public class ConsumerDemoCooperative {
 
     private static final Logger log = LoggerFactory.getLogger(ConsumerDemoCooperative.class.getSimpleName());
     public static void main(String[] args) {
+        // this is for kafka training
         log.info("I am a Kafka Consumer");
 
         String boostrapServers = "127.0.0.1:9092";
